@@ -1,4 +1,4 @@
-#ksl_auto_scrape_selenium
+# ksl_auto_scrape_selenium
 
 Automatically scrape KSL Cars listings with Selenium.
 
