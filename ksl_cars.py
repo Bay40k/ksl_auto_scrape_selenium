@@ -7,7 +7,7 @@ import time
 import urllib.parse
 
 
-def ksl_auto_search(keyword, amt_listings_to_get=10):
+def ksl_cars_search(keyword, amt_listings_to_get=10):
     options = Options()
     options.headless = True
     driver = webdriver.Firefox(options=options)
@@ -48,5 +48,5 @@ if __name__ == "__main__":
     # Example code
     import json
 
-    listings = ksl_auto_search(keyword="Honda civic", amt_listings_to_get=20)
+    listings = ksl_cars_search(keyword="Honda civic", amt_listings_to_get=20)
     print(json.dumps(listings, indent=4))

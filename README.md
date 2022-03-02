@@ -1,4 +1,4 @@
-# ksl_auto_scrape_selenium
+# ksl_cars_scraper_selenium
 
 Automatically scrape KSL Cars listings with Selenium.
 
@@ -6,11 +6,12 @@ Dependencies:
 - Selenium
 
 Example usage and output:
+
 ```python
-from ksl_auto import ksl_auto_search
+from ksl_cars import ksl_cars_search
 import json
 
-listings = ksl_auto_search(keyword="Honda civic", amt_listings_to_get=20)
+listings = ksl_cars_search(keyword="Honda civic", amt_listings_to_get=20)
 print(json.dumps(listings, indent=4))
 ```
 Output: 
